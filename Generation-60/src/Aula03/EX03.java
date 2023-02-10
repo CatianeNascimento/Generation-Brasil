@@ -26,7 +26,7 @@ public class EX03 {
 		if(idade > 18 && idade < 60) {
 			System.out.println(nome + "está apto a doar sangue");	
 		} 
-		if(idade < 18 && idade > 69) {
+		if(idade < 18 || idade > 69) {
 			 System.out.println(nome + " não está apto a doar sangue");
 		} 
 		if (idade >= 61 && idade < 69){
