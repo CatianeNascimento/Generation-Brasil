@@ -1,14 +1,11 @@
-package Aula04;
+package Aula05;
 
 import java.util.Scanner;
-
-// Ler 10 números e imprimir quantos são pares e quantos são ímpares.
 
 public class EX02 {
 
 	public static void main(String[] args) {
-
-		Scanner input = new Scanner(System.in);
+	Scanner input = new Scanner(System.in);
 		
 		int num, contP = 0, contI = 0;
 		
@@ -26,3 +23,4 @@ public class EX02 {
 	}
 
 }
+
