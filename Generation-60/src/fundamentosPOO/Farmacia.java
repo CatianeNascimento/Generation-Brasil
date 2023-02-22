@@ -2,11 +2,11 @@ package fundamentosPOO;
 
 public class Farmacia {
 
-	String nome;
-	String endereco;
-	String cep;
-	int qntClientesCadastrados;
-	int qntFuncionarios;
+	private String nome;
+	private String endereco;
+	private String cep;
+	private int qntClientesCadastrados;
+	private int qntFuncionarios;
 
 	public Farmacia(String nome, String endereco, String cep, int qntClientesCadastrados, int qntFuncionarios) {
 		super();

@@ -2,13 +2,13 @@ package fundamentosPOO;
 
 public class Ingresso {
 	
-	String identificacao;
-	String data; 
-	String horario; 
-	String tipo;
-	String categoria;
-	double preco;
-	int numero;
+	private String identificacao;
+	private String data; 
+	private String horario; 
+	private String tipo;
+	private String categoria;
+	private double preco;
+	private int numero;
 	
 	public Ingresso(String identificacao, String data, String horario, String tipo, String categoria, double preco,
 			int numero) {

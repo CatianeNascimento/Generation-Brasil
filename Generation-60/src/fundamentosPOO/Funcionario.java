@@ -1,11 +1,11 @@
 package fundamentosPOO;
 
 public class Funcionario {
-	String nome;
-	String setor;
-	String funcao;
-	int matricula;
-	double salario;
+	private String nome;
+	private String setor;
+	private String funcao;
+	private int matricula;
+	private double salario;
 	
 	public Funcionario(String nome, String setor, String funcao, int matricula, double salario) {
 		this.nome = nome;

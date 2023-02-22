@@ -1,11 +1,11 @@
 package fundamentosPOO;
 
 public class Cliente {
-	String nome;
-	String endereco;
-	String email;
-	String cpf;
-	int telefone;
+	private String nome;
+	private String endereco;
+	private String email;
+	private String cpf;
+	private int telefone;
 	
 	public Cliente(String nome, String endereco, String email, String cpf, int telefone) {
 		

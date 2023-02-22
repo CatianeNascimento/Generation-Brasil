@@ -2,11 +2,11 @@ package fundamentosPOO;
 
 public class Produto {
 
-	String nomeProduto;
-	String categoria;
-	String cor;
-	int codigo;
-	double preco;
+	private String nomeProduto;
+	private String categoria;
+	private String cor;
+	private int codigo;
+	private double preco;
 
 	public Produto(String nomeProduto, String categoria, String cor, int codigo, double preco) {
 		this.nomeProduto = nomeProduto;

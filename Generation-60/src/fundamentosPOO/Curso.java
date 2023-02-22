@@ -2,11 +2,11 @@ package fundamentosPOO;
 
 public class Curso {
 
-	String tipo;
-	String nome; 
-	String area;
-	String polo;
-	double preco;
+	private String tipo;
+	private String nome; 
+	private String area;
+	private String polo;
+	private double preco;
 	
 	
 	public Curso(String tipo, String nome, String area, String polo, double preco) {
